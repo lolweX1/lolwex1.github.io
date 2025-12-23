@@ -1,18 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 #nav_bar {
-  background-color: green;
+  background-color: rgb(53, 252, 53);
   height: 10%;
   width: 100%;
   display: flex;
   overflow-x: hidden;
 }
 
-#nav_bar > * {
+.nav_span {
   flex: 1;
   border: 1px solid black;
 }
 
-#nav_bar > *:hover {
-  background-color: darkgreen;
+.nav_span:hover {
+  background-color: rgb(53, 202, 53);
 }
 
 .nav_span {
