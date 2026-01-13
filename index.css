@@ -25,3 +25,15 @@ body, html {
   align-items: center;
   justify-content: center;
 }
+
+.nav_span.active_nav {
+  background-color: rgb(11, 193, 11);
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
