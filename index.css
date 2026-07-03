@@ -36,4 +36,5 @@ body, html {
 
 .tab.active {
   display: block;
+  height:100vh;
 }
