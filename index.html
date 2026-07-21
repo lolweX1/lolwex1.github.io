@@ -7,19 +7,73 @@
         <h1> Welcome :)</h1>
         <div id = "nav_bar">
             <span id="home_tab" class = "nav_span active_nav" onclick="setActiveTab('home')">Home</span>
+            <span id="project_tab" class = "nav_span" onclick="setActiveTab('project')">Projects</span>
             <span id="game_tab" class = "nav_span" onclick="setActiveTab('game')">Games</span>
             <span id="about_tab" class = "nav_span" onclick="setActiveTab('about')">About Me</span>
         </div>
         <div id="home" class = "tab active">
-            <h1>Welcome to Amphori</h1>
+            <h1>Welcome</h1>
+        </div>
+        <div id="project" class = "tab">
+            <h1>Projects</h1>
+            <div style = "padding: 1 vw; display: flex; justify-content: space-evenly;" class = "container">
+                <div style = "display: inline-block; width: 45vw; padding: 1%; border: 2px black solid">
+                    <h1 class="project-name">Fling!</h1>
+                    
+                    <!--create video with code, draw illustration of what is happening-->
+                </div>
+                <div style = "display: inline-block; width: 45vw; padding: 1%; border: 2px black solid; height:40vh; overflow:scroll;">
+                    <h1 class="project-name" style="margin: 0; padding: 0;">WeiQi AI</h1>
+                    <hr>
+                    <div class = "skills">
+                        <h3>Skills: Python, Algebra, matrices</h3>
+                    </div>
+                    <div class = "goal">
+                        <h4>Goal: To create an AI on 8 gb of ram that could play WeiQI on a ameteur/intermediate level</h4>
+                    </div>
+                    <div class = "why">
+                        <h4>Why: WeiQi is high complex, even more than chess, with an average of 250 possible moves per turn. With so many decisions and play styles, I decided an AI was the most optimal path</h4>
+                    </div>
+                    <div class = "description">
+                        <h4>Description: </h4>
+                    </div>
+                    <div class = "process">
+                        <h4>Process: </h4>
+                    </div>
+                    <div class = "obstacles">
+                        <h4>Obstacles: </h4>
+                    </div>
+                    <div class = "CurrentSuccess">
+                        <h4>Current Status: </h4>
+                    </div>
+                    <div class = "future">
+                        <h4>Future: </h4>
+                    </div>
+                    <div class = "video">
+                        <div style = "display: flex; justify-content: space-evenly">
+                            <h4 style="display: inline-block; width: 50%; text-align: center; margin: 0">1st iteration</h4>
+                            <h4 style="display: inline-block; width: 50%; text-align: center; margin: 0">450th iteration</h4>
+                        </div>
+                        <div style = "display: flex; justify-content: space-evenly">
+                            <video width="45%" height="auto" controls>
+                                <source src="demo_videos/AI_1_Failure.mp4" type="video/mp4">
+                            </video>
+                            <video width="45%" height="auto" controls>
+                                <source src="demo_videos/AI_8_Success.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="game" class = "tab">
             <h1>Games</h1>
         </div>
         <div id="about" class = "tab">
-            <div style="box-sizing: border-box; box-shadow: inset; border: 1px solid rgb(0, 13, 255); width: 50%;z-index: 999; background-color: red;">
-                <h1>Jeffrey Fu</h1>
-                <h2>High school, class of 2027</h2>
+            <div style="box-sizing: border-box; border: 3px solid rgb(0, 0, 0); width: 100%;">
+                <h1 style = "margin: 0; padding: 0; text-align:center">Jeffrey Fu</h1>
+                <h4 style = "margin: 0; padding: 0">Education: <span style="font-weight: normal;">high school, class of 2027</span></h4>
+                <h4 style = "margin: 0; padding: 0">Interests: <span style="font-weight: normal;">gaming, coding, building, modelling, drawing, animating</span></h4>
             </div>
         </div>
     </body>
